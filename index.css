@@ -1,0 +1,134 @@
+input{
+    width:355px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    border-radius: 6px;
+}
+h1{
+    font-family: "Keania One", sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color:#2b594f;
+
+}
+h2{
+    font-family: "Cedarville Cursive", cursive;
+    text-align: center;
+    font-size: 22px;
+
+
+}
+label{
+    font-family: "Chelsea Market", system-ui;
+    font-size: 20px;
+
+}
+form > button{
+    font-family: "Chelsea Market", system-ui;
+    font-size: 15px;
+    border-radius: 6px;
+    margin-left: 10px;
+
+}
+button:hover{
+    background-color: #5893b7;
+    transform:scale(1.05);
+    margin-right: auto;
+}
+body{
+    background-color: #8ceeda;
+    margin:0;
+    padding:0;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+    width: 100%;
+    background-image: url("./ingredients.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+
+
+}
+
+.favRecipes-container {
+    position: fixed;
+    top: 51px;
+    left: 0;
+    width: 190px;
+    height: 100%;
+    background-color: #2c3e50;
+    color: white;
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    transform: translateX(-230px);
+}
+.favRecipes-container.collapsed {
+        transform: translateX(0px);
+}
+#favs{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #2c3e50;
+    height: 51px;
+    width: 1200px;
+
+}
+#favs button{
+    font-family: "Chelsea Market", system-ui;
+    font-size: 15px;
+    border-radius: 6px;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+
+}
+ul > li{
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    text-align: center;
+
+}
+
+.favorite-button{
+    font-family: "Chelsea Market", system-ui;
+    border-radius: 6px;
+    background-color: #f6446b;
+    color: white;
+
+
+}
+.favorite-button:hover{
+    background-color:#dc0937;
+    transform: scale(1.05);
+}
+.card-titles{
+    font-family: "Keania One", sans-serif;
+}
+.remove-button{
+    font-family: "Chelsea Market", system-ui;
+    border-radius: 6px;
+    background-color: indianred;
+    color: white;
+}
+.remove-button:hover{
+    background-color: darkred;
+}
+
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ingredient Recipe Generator</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Chelsea+Market&family=Keania+One&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="favs"><button id="toggleButton">☰ Favourites</button></div>
+<div class="container">
+<h1>Ingredient Recipe Generator</h1>
+<h2>Get a selection of recipes related to the ingredients you have available.</h2>
+<form id="ingredientForm">
+    <label for="ingredients">Ingredients:</label>
+    <input type="text" id="ingredients" name="ingredients" placeholder="Enter a minimum of 3 ingredients e.g egg, flour, milk...">
+    <button type="submit" id="submit-button">Generate Recipes</button>
+    </form>
+</div>
+
+
+<div id="results-section" class="favRecipes-container">
+    <h2>Favourite Recipes</h2>
+    <ul id="favorite-recipes">
+
+    </ul>
+
+</div>
+<div id="recipes-section">
+    <ul id="recipe-cards">
+    </ul>
+</div>
+
+
+
+<script src="./rec.js"></script>
+</body>
+</html>
